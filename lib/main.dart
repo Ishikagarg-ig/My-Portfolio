@@ -96,6 +96,31 @@ class LargeChild extends StatelessWidget {
                 ),
                   SizedBox(height: 40,),
                  Search(),
+                  Row(
+                    children: [
+                      Image.network(
+                        "assets/images/github.png",
+                        height: 30,
+                        width: 30,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left:12.0),
+                        child: Image.network(
+                          "assets/images/hackerrank.png",
+                          height: 35,
+                          width: 35,
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left:12.0),
+                        child: Image.network(
+                          "assets/images/linkedin.png",
+                          height: 30,
+                          width: 30,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
@@ -117,7 +142,7 @@ class SmallChild extends StatelessWidget {
           children: [
             Text("Ishika garg",style: TextStyle(fontSize: 60,color: Colors.black),),
             SizedBox(height: 20,),
-            Text("I'm a student, studing Btech(Computer Science) in Chitkara University. I make stunning and userfriendly flutter apps and web apps. I'm a passionate learner and have intuitive Competitive programming skills. You can see my amazing projects on Github!!",style: TextStyle(fontSize: 21),),
+            Text("I'm a student, studing Btech (Computer Science) in Chitkara University. I make stunning and userfriendly flutter apps and web apps. I'm a passionate learner and have intuitive Competitive programming skills. You can see my amazing projects on Github!!",style: TextStyle(fontSize: 21),),
             SizedBox(
               height: 30,
             ),
@@ -131,9 +156,33 @@ class SmallChild extends StatelessWidget {
               height: 32,
             ),
             Search(),
-            SizedBox(
-              height: 30,
-            )
+            Center(
+              child: Row(
+                children: [
+                  Image.network(
+                    "assets/images/github.png",
+                    height: 30,
+                    width: 30,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left:12.0),
+                    child: Image.network(
+                      "assets/images/hackerrank.png",
+                      height: 35,
+                      width: 35,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left:12.0),
+                    child: Image.network(
+                      "assets/images/linkedin.png",
+                      height: 30,
+                      width: 30,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),

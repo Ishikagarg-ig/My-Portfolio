@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:portfolio_website/Utils/responsiveLayout.dart';
 
 class NavBar extends StatelessWidget {
-  final navLinks=["Home","Products","Events","Contact"];
+  final navLinks=["Home","About","Projects","Contact"];
 
   List<Widget> navItem(){
     return navLinks.map((text) {
       return Padding(
-        padding: const EdgeInsets.only(left:20.0),
+        padding: const EdgeInsets.only(left:30.0),
         child: Text(text,style: TextStyle(fontSize: 18),),
       );
     }).toList();
@@ -42,13 +42,16 @@ class NavBar extends StatelessWidget {
               SizedBox(
                 width:16,
               ),
-              Text("Ishika garg",style: TextStyle(fontSize: 28),),
+              //Text("Ishika garg",style: TextStyle(fontSize: 28),),
             ],
           ),
           if(!ResponsiveLayout.isSmallScreen(context))
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-               children: [...navItem()],
+            Padding(
+              padding: const EdgeInsets.only(right:60.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                 children: [...navItem()],
+              ),
             )
           else
             Icon(Icons.menu,size: 26,),
