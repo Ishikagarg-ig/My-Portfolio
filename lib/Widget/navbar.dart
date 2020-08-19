@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio_website/Utils/responsiveLayout.dart';
 
+import 'menu.dart';
+
 class NavBar extends StatelessWidget {
   final navLinks=["Home","About","Projects","Contact"];
 
@@ -54,7 +56,12 @@ class NavBar extends StatelessWidget {
               ),
             )
           else
-            Icon(Icons.menu,size: 26,),
+            GestureDetector(
+              onTap:(){
+                //Navigator.push(context, MaterialPageRoute(builder: (context)=>Menu()));
+              },
+                child: Icon(Icons.menu,size: 26,),
+            ),
         ],
       ),
     );
