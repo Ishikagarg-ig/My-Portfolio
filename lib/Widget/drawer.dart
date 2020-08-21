@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_website/Screens/AboutPage.dart';
+import 'package:portfolio_website/Screens/HomePage.dart';
 
 class AppDrawer extends StatelessWidget {
   @override
@@ -23,6 +25,7 @@ class AppDrawer extends StatelessWidget {
             style: TextStyle(fontSize: 18),
           ),
           onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
           },
         ),
         ListTile(
@@ -31,6 +34,7 @@ class AppDrawer extends StatelessWidget {
             style: TextStyle(fontSize: 18),
           ),
           onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>AboutPage()));
           },
         ),
         ListTile(
@@ -42,7 +46,6 @@ class AppDrawer extends StatelessWidget {
           },
         ),
         ListTile(
-
           title: Text(
             'Contact',
             style: TextStyle(fontSize: 18),
