@@ -114,7 +114,8 @@ class LargeChild extends StatelessWidget {
                   SizedBox(height: 25,),
                   Container(
                     width: MediaQuery.of(context).size.width*0.4,
-                    child: Text("I'm a student, studing Btech(Computer Science) in Chitkara University. I make stunning and userfriendly flutter apps and web apps. I'm a passionate learner and have intuitive Competitive programming skills. You can see my amazing projects on Github!!",style: TextStyle(fontSize: 21),),
+                    child: Text("Student, Flutter Developer, & Programmer",style: TextStyle(fontSize: 25),),
+                    //child: Text("I'm a student, studing Btech(Computer Science) in Chitkara University. I make stunning and userfriendly flutter apps and web apps. I'm a passionate learner and have intuitive Competitive programming skills. You can see my amazing projects on Github!!",style: TextStyle(fontSize: 21),),
                   ),
                   SizedBox(height: 40,),
                   Search(),
@@ -164,7 +165,7 @@ class SmallChild extends StatelessWidget {
           children: [
             Text("Ishika garg",style: TextStyle(fontSize: 60,color: Colors.black),),
             SizedBox(height: 20,),
-            Text("I'm a student, studing Btech (Computer Science) in Chitkara University. I make stunning and userfriendly flutter apps and web apps. I'm a passionate learner and have intuitive Competitive programming skills. You can see my amazing projects on Github!!",style: TextStyle(fontSize: 21),),
+            Text("Student, Flutter Developer, & Programmer",style: TextStyle(fontSize: 25),),
             SizedBox(
               height: 30,
             ),
