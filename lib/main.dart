@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:portfolio_website/Screens/AboutPage.dart';
 import 'package:portfolio_website/Utils/responsiveLayout.dart';
@@ -26,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: AboutPage(),
+      home: MyHomePage(),
     );
   }
 }

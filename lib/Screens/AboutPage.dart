@@ -159,7 +159,7 @@ class LargeChild extends StatelessWidget {
                   value: 0.9, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.blueGrey), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.blueGrey,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("Flutter"),
@@ -172,7 +172,7 @@ class LargeChild extends StatelessWidget {
                   value: 0.8, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.pink), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.pink,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("Firebase"),
@@ -185,7 +185,7 @@ class LargeChild extends StatelessWidget {
                   value: 0.7, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.red), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.red,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("DS & ALGO"),
@@ -198,7 +198,7 @@ class LargeChild extends StatelessWidget {
                   value: 0.6, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.purple), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.purple,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("Java"),
@@ -217,7 +217,7 @@ class LargeChild extends StatelessWidget {
                   value: 0.7, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.cyan), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.cyan,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("Machine Learning"),
@@ -230,7 +230,7 @@ class LargeChild extends StatelessWidget {
                   value: 0.5, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.amber), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.amber,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("Matlab"),
@@ -243,7 +243,7 @@ class LargeChild extends StatelessWidget {
                   value: 0.8, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.green), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.green,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("Programming\nSkills"),
@@ -340,7 +340,7 @@ class SmallChild extends StatelessWidget {
                 radius: ResponsiveLayout.isMediumScreen(context)
                     ? 120
                     : 140,
-                backgroundImage: new AssetImage('images/ishika.jpg',),
+                backgroundImage: new AssetImage('assets/images/ishika.jpg',),
               ),
             ),
             SizedBox(
@@ -367,7 +367,7 @@ class SmallChild extends StatelessWidget {
                       value: 0.9, // Defaults to 0.5.
                       backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                       valueColor: AlwaysStoppedAnimation(Colors.blueGrey), // Defaults to the current Theme's backgroundColor.
-                      borderColor: Colors.blueGrey,
+                      borderColor: Colors.white,
                       borderWidth: 5.0,
                       direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                       center: Text("Flutter"),
@@ -380,7 +380,7 @@ class SmallChild extends StatelessWidget {
                       value: 0.8, // Defaults to 0.5.
                       backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                       valueColor: AlwaysStoppedAnimation(Colors.pink), // Defaults to the current Theme's backgroundColor.
-                      borderColor: Colors.pink,
+                      borderColor: Colors.white,
                       borderWidth: 5.0,
                       direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                       center: Text("Firebase"),
@@ -403,7 +403,7 @@ class SmallChild extends StatelessWidget {
                       value: 0.7, // Defaults to 0.5.
                       backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                       valueColor: AlwaysStoppedAnimation(Colors.red), // Defaults to the current Theme's backgroundColor.
-                      borderColor: Colors.red,
+                      borderColor: Colors.white,
                       borderWidth: 5.0,
                       direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                       center: Text("DS & ALGO"),
@@ -416,7 +416,7 @@ class SmallChild extends StatelessWidget {
                       value: 0.6, // Defaults to 0.5.
                       backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                       valueColor: AlwaysStoppedAnimation(Colors.purple), // Defaults to the current Theme's backgroundColor.
-                      borderColor: Colors.purple,
+                      borderColor: Colors.white,
                       borderWidth: 5.0,
                       direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                       center: Text("Java"),
@@ -439,7 +439,7 @@ class SmallChild extends StatelessWidget {
                       value: 0.7, // Defaults to 0.5.
                       backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                       valueColor: AlwaysStoppedAnimation(Colors.cyan), // Defaults to the current Theme's backgroundColor.
-                      borderColor: Colors.cyan,
+                      borderColor: Colors.white,
                       borderWidth: 5.0,
                       direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                       center: Text("Machine Learning"),
@@ -452,7 +452,7 @@ class SmallChild extends StatelessWidget {
                       value: 0.5, // Defaults to 0.5.
                       backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                       valueColor: AlwaysStoppedAnimation(Colors.amber), // Defaults to the current Theme's backgroundColor.
-                      borderColor: Colors.amber,
+                      borderColor: Colors.white,
                       borderWidth: 5.0,
                       direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                       center: Text("Matlab"),
@@ -469,7 +469,7 @@ class SmallChild extends StatelessWidget {
                   value: 0.8, // Defaults to 0.5.
                   backgroundColor: Colors.white, // Defaults to the current Theme's accentColor.
                   valueColor: AlwaysStoppedAnimation(Colors.green), // Defaults to the current Theme's backgroundColor.
-                  borderColor: Colors.green,
+                  borderColor: Colors.white,
                   borderWidth: 5.0,
                   direction: Axis.vertical, // The direction the liquid moves (Axis.vertical = bottom to top, Axis.horizontal = left to right). Defaults to Axis.vertical.
                   center: Text("Programming\nSkills"),
@@ -488,8 +488,10 @@ class SmallChild extends StatelessWidget {
                       throw 'Could not launch $url';
                     }
                   },
-                  child: Image.network(
-                    "assets/images/github.png",
+                  child: Image(
+                    image : AssetImage(
+                      "assets/images/github.png",
+                    ),
                     height: 30,
                     width: 30,
                   ),
@@ -505,10 +507,12 @@ class SmallChild extends StatelessWidget {
                         throw 'Could not launch $url';
                       }
                     },
-                    child: Image.network(
-                      "assets/images/hackerrank.png",
-                      height: 35,
-                      width: 35,
+                    child: Image(
+                      image: AssetImage(
+                        "assets/images/hackerrank.png",
+                      ),
+                       height: 35,
+                       width: 35,
                     ),
                   ),
                 ),
@@ -523,8 +527,10 @@ class SmallChild extends StatelessWidget {
                         throw 'Could not launch $url';
                       }
                     },
-                    child: Image.network(
-                      "assets/images/linkedin.png",
+                    child: Image(
+                      image: AssetImage(
+                        "assets/images/linkedin.png",
+                      ),
                       height: 30,
                       width: 30,
                     ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_website/Screens/AboutPage.dart';
+import 'package:portfolio_website/Screens/ContactPage.dart';
 import 'package:portfolio_website/Screens/HomePage.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -16,7 +17,7 @@ class AppDrawer extends StatelessWidget {
           accountName: Text("Ishika garg",style: TextStyle(color: Colors.black,fontSize: 20),),
           currentAccountPicture: new GestureDetector(
               child: new CircleAvatar(
-                backgroundImage: new AssetImage('images/ishika.jpg',),
+                backgroundImage: new AssetImage('assets/images/ishika.jpg',),
               )),
         ),
         ListTile(
@@ -39,7 +40,7 @@ class AppDrawer extends StatelessWidget {
         ),
         ListTile(
           title: Text(
-            'Projects',
+            'Work',
             style: TextStyle(fontSize: 18),
           ),
           onTap: () {
@@ -51,6 +52,7 @@ class AppDrawer extends StatelessWidget {
             style: TextStyle(fontSize: 18),
           ),
           onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>ContactPage()));
           },
         ),
       ]),

@@ -121,23 +121,29 @@ class LargeChild extends StatelessWidget {
                   Search(),
                   Row(
                     children: [
-                      Image.network(
-                        "assets/images/github.png",
+                      Image(
+                        image: AssetImage(
+                          "assets/images/github.png",
+                        ),
                         height: 30,
                         width: 30,
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left:12.0),
-                        child: Image.network(
-                          "assets/images/hackerrank.png",
+                        child: Image(
+                          image: AssetImage(
+                            "assets/images/hackerrank.png",
+                          ),
                           height: 35,
                           width: 35,
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left:12.0),
-                        child: Image.network(
-                          "assets/images/linkedin.png",
+                        child: Image(
+                          image: AssetImage(
+                            "assets/images/linkedin.png",
+                          ),
                           height: 30,
                           width: 30,
                         ),
@@ -170,9 +176,10 @@ class SmallChild extends StatelessWidget {
               height: 30,
             ),
             Center(
-              child: Image.network(
-                "assets/images/clip-programming.png",
-                scale: 1,
+              child: Image(
+                image: AssetImage(
+                  "assets/images/clip-programming.png",
+                ),
               ),
             ),
             SizedBox(
@@ -191,8 +198,10 @@ class SmallChild extends StatelessWidget {
                         throw 'Could not launch $url';
                       }
                     },
-                    child: Image.network(
-                      "assets/images/github.png",
+                    child: Image(
+                      image: AssetImage(
+                        "assets/images/github.png",
+                      ),
                       height: 30,
                       width: 30,
                     ),
@@ -208,8 +217,10 @@ class SmallChild extends StatelessWidget {
                           throw 'Could not launch $url';
                         }
                       },
-                      child: Image.network(
-                        "assets/images/hackerrank.png",
+                      child: Image(
+                        image: AssetImage(
+                          "assets/images/hackerrank.png",
+                        ),
                         height: 35,
                         width: 35,
                       ),
@@ -226,8 +237,10 @@ class SmallChild extends StatelessWidget {
                           throw 'Could not launch $url';
                         }
                       },
-                      child: Image.network(
-                        "assets/images/linkedin.png",
+                      child: Image(
+                        image: AssetImage(
+                          "assets/images/linkedin.png",
+                        ),
                         height: 30,
                         width: 30,
                       ),

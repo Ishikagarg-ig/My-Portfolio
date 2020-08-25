@@ -5,7 +5,7 @@ import 'package:portfolio_website/Utils/responsiveLayout.dart';
 import 'menu.dart';
 
 class NavBar extends StatelessWidget {
-  final navLinks=["Home","About","Projects","Contact"];
+  final navLinks=["Home","About","Work","Contact"];
 
   List<Widget> navItem(){
     return navLinks.map((text) {
