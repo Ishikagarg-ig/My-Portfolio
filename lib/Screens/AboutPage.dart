@@ -139,10 +139,14 @@ class LargeChild extends StatelessWidget {
                         ? MediaQuery.of(context).size.width*0.5
                         : MediaQuery.of(context).size.width*0.65,
                     child: Text("I'm a student, studing Btech(Computer Science) in Chitkara University. I make stunning and userfriendly mobile apps and web apps using flutter and firebase. I'm a passionate learner and have intuitive programming skills. You can see my amazing projects on Github!!",
+                      textAlign: TextAlign.justify,
                       style: TextStyle(
                         fontSize: ResponsiveLayout.isMediumScreen(context)
                         ? 22
-                        : 27,),))
+                        : 27,
+                      ),
+                    ),
+                ),
               ],
             ),
           ),
@@ -350,8 +354,12 @@ class SmallChild extends StatelessWidget {
               child: Container(
                   width: MediaQuery.of(context).size.width*0.8,
                   child: Text("I'm a student, studing Btech (Computer Science) in Chitkara University. I make stunning and user friendly mobile apps and web apps using flutter and firebase. I'm a passionate learner and have intuitive programming skills. You can see my amazing projects on Github!!",
+                    textAlign: TextAlign.justify,
                     style: TextStyle(
-                      fontSize: 27,),)),
+                      fontSize: 27,
+                    ),
+                  ),
+              ),
             ),
             SizedBox(
               height: 32,
